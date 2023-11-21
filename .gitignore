@@ -4,7 +4,8 @@
 *.log
 *.exe
 *.dll
-*.txt
 release/
 Layer2 sample mods/
 Layer2 sample stage mods/
+build/
+.vscode

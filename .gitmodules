@@ -1,0 +1,9 @@
+[submodule "eternity_common"]
+	path = eternity_common
+	url = git@git.zhlh6.cn:eterniti/eternity_common.git
+[submodule "minhook"]
+	path = minhook
+	url = git@git.zhlh6.cn:TsudaKageyu/minhook.git
+[submodule "zlib"]
+	path = zlib
+	url = git@git.zhlh6.cn:madler/zlib.git

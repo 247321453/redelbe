@@ -4,13 +4,12 @@
 typedef size_t (* CBC_Decryption_ProcessData_Type)(void *, uint8_t *, const uint8_t *, size_t);
 static CBC_Decryption_ProcessData_Type CBC_Decryption_ProcessData;
 
-static bool uncompress;
-
 extern "C"
 {
 
 PUBLIC void SetupDumpDecrypted(CBC_Decryption_ProcessData_Type orig)
 {
+	static bool uncompress = false;
 	CBC_Decryption_ProcessData = orig;
 	
 	ini.GetBooleanValue("Debug", "auto_uncompress_decrypted", &uncompress, false);
