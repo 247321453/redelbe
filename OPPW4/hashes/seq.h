@@ -6,7 +6,9 @@ extern "C"
 {
 #endif
 
-void* additional_fn_seq();
+char* additional_fn_seq(){
+    return (char*)";";
+}
 
 #ifdef __cplusplus
 };

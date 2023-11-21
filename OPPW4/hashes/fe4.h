@@ -5,8 +5,10 @@
 extern "C"
 {
 #endif
-
-void* additional_fn_fe4();
+    char *additional_fn_fe4()
+    {
+        return (char*)"; 1.08 gmx\r\n0x5fba153b,S1601ISL_set";
+    }
 
 #ifdef __cplusplus
 };

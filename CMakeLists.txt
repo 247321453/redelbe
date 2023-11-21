@@ -22,7 +22,6 @@ ui.cpp
 misc.cpp
 debug_enc.cpp
 debug.cpp
-OPPW4/hashes/hashes.cpp
 eternity_common/crypto/sha1.c
 eternity_common/crypto/md5.c
 eternity_common/crypto/rijndael.c
